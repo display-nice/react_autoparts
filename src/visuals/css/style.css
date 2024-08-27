@@ -1,5 +1,7 @@
-@import "./global/normalize.css";
-@import "./global/fonts.css";
-@import "./global/typography.css";
 @import "./global/variables.css";
+@import "./global/fonts.css";
+@import "./global/reboot.css";
+@import "./global/normalize.css";
+@import "./global/typography.css";
+@import "./components/page.css";
 @import "./media/_media.css";

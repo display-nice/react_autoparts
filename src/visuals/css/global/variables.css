@@ -1,18 +1,14 @@
 :root {
-	--main-blue: #275e63; /* Основной цвет */
-	--light-blue: #507d7b; /* Светлый цвет */
-	--dark-blue: #13484c; /* Темный цвет */
-	--disabled-blue: #7d9b9a; /* Цвет для отключенных элементов */
-
-	--titles-color: #444444;
-	--disabled-bg: #e1e3ec;
-	--main-bg: #f5f6f9;
-	--white: #ffffff;
-	--popup-overlay: rgba(0, 0, 0, 0.5);
-	--light-green: #44b156;
-	--bad-rating: #97a2b5;
-
-	--main-font: "Montserrat", "Helvetica", sans-serif;
-
+	--bg-header: #FFFFFF;
+	--bg-main: #F0F0F0;	
+	--bg-buttons: #1C69D4;
+	--bg-disabled: #e1e3ec;
+	--bg-popup-overlay: rgba(0, 0, 0, 0.5);
+	--text: #222222;
+	--text-titles: #222222;
+	--text-banners: #FFFFFF;
+	--text-buttons1: #1C69D4;
+	--text-buttons2: #FFFFFF;
+	--font: "Montserrat", "Helvetica", sans-serif;
 	--animation: 0.155s ease-in-out;
 }
