@@ -1,1 +1,7 @@
-@import "./body.css";
+@import "./page.css";
+@import "./header.css";
+@import "./promo-slider.css";
+@import "./services.css";
+@import "./showcase.css";
+@import "./footer.css";
+

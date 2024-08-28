@@ -1,0 +1,77 @@
+.promoslider {
+	position: relative;
+}
+
+.promoslider__bg {
+	position: absolute;
+	z-index: 0;
+}
+
+.promoslider__container {
+	display: flex;
+}
+
+.promoslider__description {
+	display: flex;
+	flex-direction: column;
+	gap: 38px;
+	position: absolute;
+	top: 27px;
+	left: 10px;
+	max-width: 70%;
+	z-index: 2;
+}
+
+.promoslider__product {
+	position: absolute;
+	top: 35px;
+	right: -20px;
+	max-width: 191px;
+	max-height: 298px;
+	z-index: 1;
+}
+
+.promoslider__logo {
+	width: 122px;
+	height: 33px;
+	border-radius: 8px;
+}
+.promoslider__maintext {
+	font: 700 36px/40px "GothamPro";
+	color: var(--text-banners)
+}
+.promoslider__moredetails {
+	display: flex;
+	gap: 16px;
+	max-width: 163px;
+	font: 400 16px/24px "GothamPro";
+	color: var(--text-titles);
+	text-transform: uppercase;
+	text-align: left;
+}
+
+.promoslider__controlbtns {
+	display: flex;
+	position: absolute;
+	top: 0px;
+	right: 10px;
+}
+.promoslider__btn {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	position: relative;
+	width: 60px;
+	height: 60px;	
+	background: rgba(255, 255, 255, 0.1);
+}
+.promoslider__btn:hover {
+	background: rgba(255, 255, 255, 0.2);
+}
+.promoslider__btn:active, .promoslider__btn:focus {
+	background: rgba(255, 255, 255, 0.2);
+	border: 1px solid rgba(34, 34, 34, 0.6);
+}
+.promoslider__btn--left {
+	transform: scaleX(-1);
+}

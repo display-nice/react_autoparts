@@ -1,14 +1,26 @@
 :root {
-	--bg-header: #FFFFFF;
-	--bg-main: #F0F0F0;	
-	--bg-buttons: #1C69D4;
+	--bg-header: #ffffff;
+	--bg-main: #f0f0f0;
+	--bg-buttons: #1c69d4;
 	--bg-disabled: #e1e3ec;
 	--bg-popup-overlay: rgba(0, 0, 0, 0.5);
 	--text: #222222;
 	--text-titles: #222222;
-	--text-banners: #FFFFFF;
-	--text-buttons1: #1C69D4;
-	--text-buttons2: #FFFFFF;
+	--text-banners: #ffffff;
+	--text-buttons1: #1c69d4;
+	--text-buttons2: #ffffff;
 	--font: "Montserrat", "Helvetica", sans-serif;
 	--animation: 0.155s ease-in-out;
+}
+
+.button_reset {
+	background: none;
+	border: none;
+	padding: 0;
+	margin: 0;
+	cursor: pointer;
+}
+
+.button-reset:focus {
+	outline: none;
 }

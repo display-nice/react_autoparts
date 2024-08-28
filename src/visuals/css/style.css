@@ -3,5 +3,5 @@
 @import "./global/reboot.css";
 @import "./global/normalize.css";
 @import "./global/typography.css";
-@import "./components/page.css";
+@import "./components/_components.css";
 @import "./media/_media.css";
