@@ -7,6 +7,7 @@ import CatalogIcon from "./visuals/svg/Main_burger.svg";
 import DropdownIcon from "./visuals/svg/Arrow_Dropdown.svg";
 import ArrowRightBlue from "./visuals/svg/Arrow_Right_Blue.svg";
 import ArrowRightWhite from "./visuals/svg/Arrow_Right_White.svg";
+import WhatsAppGreenIcon from "./visuals/svg/WhatsApp.svg";
 
 function App() {
 	return (
@@ -89,10 +90,44 @@ function App() {
 								<img src={ArrowRightWhite} alt="" />
 							</button>
 						</div>
-						
 					</div>
 				</section>
-				<section className="services"></section>
+				<section className="services">
+					<div className="services__card frame">
+						<div className="services__container">
+							<h2 className="services__card-header">Бесплатный звонок</h2>
+							<p className="services__card-text">На любые номера РФ</p>
+							<p className="services__card-phone">8 800 555-35-35</p>
+							<button className="button_reset services__button services__button--WhatsApp">
+								<img src={WhatsAppGreenIcon} alt="" />
+								<span className="services__button-text services__button-text--WhatsApp">WhatsApp</span>
+							</button>
+						</div>
+					</div>
+					<div className="services__card frame">
+						<div className="services__container">
+							<h2 className="services__card-header">Бесплатный подбор</h2>
+							<p className="services__card-text">
+								Мы найдем самую низкую цену на оригинальную запчасть, достойную альтернативу или
+								самый дешевый аналог.
+							</p>
+							<button className="button_reset services__button">
+								<span className="services__button-text">Заявка на подбор</span>
+							</button>
+						</div>
+					</div>
+					<div className="services__card frame">
+						<div className="services__container">
+							<h2 className="services__card-header">Бесплатная доставка</h2>
+							<p className="services__card-text">
+								Согласуем и привезём запчасти в офис или домой в удобное для Вас время.
+							</p>
+							<button className="button_reset services__button">
+								<span className="services__button-text ">Пункты выдачи</span>
+							</button>
+						</div>
+					</div>
+				</section>
 				<section className="showcase"></section>
 			</main>
 			<footer className="footer"></footer>

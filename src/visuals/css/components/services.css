@@ -1,0 +1,46 @@
+.services {
+	display: flex;
+	flex-direction: column;
+	gap: 10px;
+}
+.services__card {
+	background-color: var(--bg-servicecards);
+}
+.services__container {
+	display: flex;
+	flex-direction: column;
+	gap: 8px;
+	padding: 20px 25px 20px 20px;
+}
+.services__card-header {
+	font: 700 24px/24px "GothamPro";
+}
+.services__card-text {
+	font: 400 14px/20px "GothamPro";
+	
+}
+.services__card-phone {
+	font: 400 24px/40px "GothamPro";
+
+}
+.services__button {
+	display: flex;
+	max-width: 270px;
+	height: 52px;
+	justify-content: center;
+	align-items: center;	
+	border-radius: 4px;
+	border: 2px solid var(--bg-buttons);
+	
+}
+.services__button-text {
+	font: 700 16px/23px "GothamPro";
+	color: var(--text-buttons1)
+}
+.services__button--WhatsApp {
+	border: 2px solid rgb(60, 162, 85);
+}
+.services__button-text--WhatsApp {
+	margin-left: 10px;
+	color: rgb(60, 162, 85);
+}

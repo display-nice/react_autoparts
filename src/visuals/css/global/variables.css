@@ -1,16 +1,21 @@
 :root {
 	--bg-header: #ffffff;
 	--bg-main: #f0f0f0;
-	--bg-buttons: #1c69d4;
+	--bg-servicecards: #ffffff;
+	--bg-buttons: rgb(28, 105, 212);
 	--bg-disabled: #e1e3ec;
 	--bg-popup-overlay: rgba(0, 0, 0, 0.5);
 	--text: #222222;
 	--text-titles: #222222;
 	--text-banners: #ffffff;
-	--text-buttons1: #1c69d4;
+	--text-buttons1: rgb(28, 105, 212);
 	--text-buttons2: #ffffff;
 	--font: "Montserrat", "Helvetica", sans-serif;
 	--animation: 0.155s ease-in-out;
+}
+
+h2, p {
+	margin: 0;
 }
 
 .button_reset {
