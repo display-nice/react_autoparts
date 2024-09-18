@@ -26,10 +26,14 @@
 .promoslider__product {
 	position: absolute;
 	top: 35px;
-	right: -20px;
+	right: 0px;
+	z-index: 1;
+	overflow: hidden;
+}
+.promoslider__product img {
 	max-width: 191px;
 	max-height: 298px;
-	z-index: 1;
+	object-position: 20px center;
 }
 
 .promoslider__logo {
@@ -38,14 +42,14 @@
 	border-radius: 8px;
 }
 .promoslider__maintext {
-	font: 700 36px/40px "GothamPro";
-	color: var(--text-banners)
+	font: 500 36px/40px "Gotham Pro";
+	color: var(--text-banners);
 }
 .promoslider__moredetails {
 	display: flex;
 	gap: 16px;
 	max-width: 163px;
-	font: 400 16px/24px "GothamPro";
+	font: 500 15px/24px "Gotham Pro";
 	color: var(--text-titles);
 	text-transform: uppercase;
 	text-align: left;
@@ -63,13 +67,14 @@
 	align-items: center;
 	position: relative;
 	width: 60px;
-	height: 60px;	
+	height: 60px;
 	background: rgba(255, 255, 255, 0.1);
 }
 .promoslider__btn:hover {
 	background: rgba(255, 255, 255, 0.2);
 }
-.promoslider__btn:active, .promoslider__btn:focus {
+.promoslider__btn:active,
+.promoslider__btn:focus {
 	background: rgba(255, 255, 255, 0.2);
 	border: 1px solid rgba(34, 34, 34, 0.6);
 }

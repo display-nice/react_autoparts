@@ -79,7 +79,7 @@ function App() {
 
 						<picture className="promoslider__product">
 							<source srcSet="/img/promoslider/oil_640+.png" media="(min-width: 640px)" />
-							<img src="/img/promoslider/oil_320-640.png" alt="Продукт" />
+							<img src="/img/promoslider/oil_320-640.png" alt="Масло New Energy 5W30" />
 						</picture>
 
 						<div className="promoslider__controlbtns">
@@ -128,7 +128,31 @@ function App() {
 						</div>
 					</div>
 				</section>
-				<section className="showcase"></section>
+				<section className="showcase">
+					<div className="showcase__card frame showcase__card--awmbrushes">
+						<picture>
+							<img src="/img/showcase/awm_brushes.png" alt="Щётки фирмы AWM" />
+						</picture>
+						<div className="showcase__card-textwrapper">
+							<h2 className="showcase__card-header">Щетки AWM</h2>							
+							<a className="showcase__card-link" href="#">ПОДРОБНЕЕ</a>							
+						</div>
+					</div>
+					<div className="showcase__card frame showcase__card--dot4discount">
+						<picture>
+							<img src="/img/showcase/dot4discount.png" alt="ROSDOT DOT 4" />
+						</picture>
+						<div className="showcase__card-textwrapper">
+							<p className="showcase__card-text">Весь январь</p>
+							<h2 className="showcase__card-header">
+								Скидка 20% <br/>
+								на весь <br/>
+								DOT4							
+							</h2>
+							<a className="showcase__card-link" href="#">ПОДРОБНЕЕ</a>							
+						</div>
+					</div>					
+				</section>
 			</main>
 			<footer className="footer"></footer>
 		</div>
